@@ -55,7 +55,6 @@ I am 43 years old. I strive to constantly discover something new for myself. Cur
     
 
 ```
-
 ## Experience
 *I have minimal practical experience in layout. I have no commercial experience.*
 
