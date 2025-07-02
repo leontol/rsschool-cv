@@ -11,7 +11,6 @@ I am 43 years old. I strive to constantly discover something new for myself. Cur
 * HTML
 * CSS
 * JS
-* Git
 * C++
 ## Code
 
