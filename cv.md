@@ -2,8 +2,8 @@
 
 
 ## Contact information:
-**Phone:** +375 (29) 399-24-03\
-**Email:** leontol@mail.ru\
+* **Phone:** +375 (29) 399-24-03\
+* **Email:** leontol@mail.ru\
 * **Github**: leontol
 * **Discord**: leontol
 
