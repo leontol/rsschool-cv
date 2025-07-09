@@ -100,61 +100,54 @@ body {
 }
 
 html {
-	scroll-behavior: smooth;
+	scroll-behavior: smooth;/* Плавный скроллинг при переходах к якорям и ссылкам на странице */
 }
 
 .container {
-	max-width: 940px;
-	margin: 0 auto;
+	max-width: 1000px;/* Максимальная ширина контейнера */
+	margin: 0 auto;/* Центрирует контейнер по горизонтали */
 }
 
 .header {
-	text-align: center;
-	padding: 32px 0;
-	border-bottom: 1px solid #dee2e6;
+	text-align: center;/* Центрирует текст в заголовке */
+	padding: 32px 0;/* Отступы сверху и снизу */
+	border-bottom: 1px solid #dee2e6;/* Нижняя граница */
 }
 
-.header-avatar {
-	height: 126px;
-	width: 126px;
-	border-radius: 50%;
-	border: 3px solid #0d6efd;
-	transition: transform 0.3s;
-}
-
-.header-avatar:hover {
-	transform: scale(1.05);
+.header-my-photo {
+	height: 200px;/* Высота аватара */
+	width: 200px;/* Ширина аватара */
 }
 
 .header-name {
-	font-size: 32px;
-	font-weight: 700;
-	color: #0d6efd;
-	margin: 20px 0 5px;
+	font-size: 32px;/* Размер шрифта */
+	font-weight: 700;/* Жирное начертание текста */
+	color: #0d6efd;/* Цвет текста */
+	margin: 20px 0 5px;/* Внешние отступы */
 }
 
 .header-position {
-	font-size: 19px;
-	opacity: 0.8;
+	font-size: 20px;/* Размер шрифта */
+	opacity: 0.9;/* Прозрачность текста */
 }
 
 .navigation-list {
-	display: flex;
-	justify-content: center;
-	column-gap: 20px;
-	padding: 20px 0;
-	margin: 20px 0;
+	display: flex;/* Использует флекс-контейнер для навигационного списка */
+	justify-content: center;/* Центрирует элементы списка по горизонтали */
+	column-gap: 20px;/* Промежуток между элементами списка */
+	padding: 20px 0;/* Отступы для верхней и нижней части */
+	margin: 20px 0;/* Внешние отступы для всей группы навигационных элементов */
 }
 
 .navigation-link {
-	color: #212529;
-	font-weight: 500;
-	transition: color 0.3s;
-	padding: 5px;
+	color: #212529;/* Цвет текста для ссылок */
+	font-weight: 500;/* Средняя жирность текста */
+	transition: color 0.3s;/* Плавный переход для изменения цвета при наведении */
+	padding: 5px;/* Отступы вокруг ссылки */
 }
 
 .navigation-link:hover {
-	color: #0d6efd;
+	color: #0d6efd;/* Изменяет цвет текста при наведении на ссылку */
 }
 
 section {
