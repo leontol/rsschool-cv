@@ -89,14 +89,14 @@ h6 {
 /*-------------------------------------------------------*/
 
 body {
-	font-family: Roboto, sans-serif;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	color: #212529;
-	font-size: 16px;
-	line-height: 1.6;
-	background-color: #f8f9fa;
+	font-family: Roboto, sans-serif;/* Шрифт для текста на странице (Roboto и запасной шрифт - sans-serif) */
+	display: flex;/* Использует Flexbox для управления расположением дочерних элементов */
+	flex-direction: column;/* Устанавливает направление оси Flexbox в столбец */
+	justify-content: space-between;/* Равномерно распределяет пространство между дочерними элементами */
+	color: #212529;/* Цвет текста на странице */
+	font-size: 16px;/* Размер шрифта, 16 пикселей */
+	line-height: 1.5;/* Межстрочный интервал, 1.6 раза больше размера шрифта */
+	background-color: #f8f9fa;/* Цвет фона страницы (светлый серый) */
 }
 
 html {
