@@ -1,14 +1,14 @@
 * {
 	padding: 0;
 	margin: 0;
-	border: 0;
+	border: 0;/* обнуляет все отступы */
 }
 
 *,
 *:before,
 *:after {
 	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
+	box-sizing: border-box;/* ширина и высота элементов будут включать в себя все отступы и границы */
 }
 
 :focus,
@@ -18,14 +18,14 @@
 
 a:focus,
 a:active {
-	outline: none;
+	outline: none; /* удаляют стандартный контур при получении фокуса (:focus) или при активном состоянии (:active) у элементов */
 }
 
 nav,
 footer,
 header,
 aside {
-	display: block;
+	display: block;/*позволяет каждому из этих элементов занимать всю ширину контейнера */
 }
 
 html,
@@ -37,43 +37,43 @@ body {
 	font-size: 14px;
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;/*100% от доступной области просмотра и размер шрифта задается в 14 пикселей в разных браузерах*/
 }
 
 input,
 button,
 textarea {
-	font-family: inherit;
+	font-family: inherit;/*Устанавливает дочерним элементам наследование шрифта от родительского элемента */
 }
 
 input::-ms-clear {
-	display: none;
+	display: none;/*Удаление кнопки очистки в полях ввода */
 }
 
 button {
-	cursor: pointer;
+	cursor: pointer;/*Устанавливает курсор в виде указателя для кнопок */
 }
 
 button::-moz-focus-inner {
 	padding: 0;
-	border: 0;
+	border: 0;/*Удаляет внутренние отступы и границы у кнопок в браузере Firefox, */
 }
 
 a,
 a:visited {
-	text-decoration: none;
+	text-decoration: none;/*Удаляет подчеркивание у обычных и посещенных ссылок */
 }
 
 a:hover {
-	text-decoration: none;
+	text-decoration: none;/*Удаляет подчеркивание у обычных и посещенных ссылок */
 }
 
 ul li {
-	list-style: none;
+	list-style: none;/*Убирает стандартные маркеры у элементов списка */
 }
 
 img {
-	vertical-align: top;
+	vertical-align: top;/*Устанавливает вертикальное выравнивание изображений по верхнему краю */
 }
 
 h1,
@@ -83,10 +83,8 @@ h4,
 h5,
 h6 {
 	font-size: inherit;
-	font-weight: 400;
+	font-weight: 400;/*Все заголовки наследуют размер шрифта от родительского элемента и устанавливают обычный вес шрифта */
 }
-
-/*-------------------------------------------------------*/
 
 body {
 	font-family: Roboto, sans-serif;/* Шрифт для текста на странице (Roboto и запасной шрифт - sans-serif) */
@@ -151,65 +149,59 @@ html {
 }
 
 section {
-	margin: 24px 0;
-	padding: 24px;
-	background-color: #fff;
-	border-radius: 8px;
-	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-	transition: box-shadow 0.6s;
+	margin: 24px 0;/* внешний отступ для элемента */
+	padding: 24px;/* внутренний отступ внутри элемента */
+	background-color: #fff;/* цвет фона элемента */
+	border-radius: 8px;/* закругление углов элемента */
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);/*теневая рамка к элементу */
+	transition: box-shadow 0.7s;/* переход для эффекта изменения тени при изменении состояния элемента */
 }
 
 section:hover {
-	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);/* селектор псевдокласса, который применяется к элементу */
 }
 
 h2 {
-	font-size: 24px;
-	font-weight: 700;
-	color: #0d6efd;
-	margin-bottom: 20px;
+	font-size: 24px;/* Размер шрифта для заголовков h2 */
+	font-weight: 700;/* Установлен жирный вес шрифта */
+	color: #0d6efd;/* Цвет текста - синий (HEX код) */
+	margin-bottom: 20px;/* Отступ снизу в 20 пикселей, чтобы отделить заголовок от следующего элемента */
 }
 
-.contacts-location {
-	margin-bottom: 20px;
+.Contact information-location {
+	margin-bottom: 20px;/* Отступ снизу в 20 пикселей для отделения блока контактной информации от следующего элемента */
 }
 
-.contacts-item {
-	margin-bottom: 8px;
+.Contact information-item {
+	margin-bottom: 8px;/* Отступ снизу в 8 пикселей для каждого элемента контактной информации */
 }
 
-.contacts-link {
-	color: #212529;
-	transition: color 0.3s;
+.Contact information-link {
+	color: #212529;/* Основной цвет текста ссылки - тёмно-серый */
+	transition: color 0.3s;/* Плавный переход цвета с продолжительностью 0.3 секунды при наведении */
 }
 
-.contacts-link:hover {
-	color: #0d6efd;
+.Contact information-link:hover {
+	color: #0d6efd;/* Цвет текста ссылки меняется на синий при наведении мыши */
 }
 
 .skills-item {
-	margin-bottom: 8px;
+	margin-bottom: 8px;/* Отступ снизу в 8 пикселей для каждого элемента списка навыков */
 }
 
 .code-example {
-	background-color: #f8f9fa;
-	border-left: 3px solid #0d6efd;
-	border-radius: 5px;
-	padding-left: 16px;
-	margin: 16px 0;
+	background-color: #f8f9fa;/* Светлый фон (светло-серый) для области примера кода */
+	border-left: 3px solid #0d6efd;/* Левый край синий и шириной 3 пикселя - также служит акцентом */
+	border-radius: 5px; /* Округлые углы для более плавного визуального оформления */
+	padding-left: 16px;/* Отступ внутри блока слева в 16 пикселей для отделения текста от границы */
+	margin: 16px 0;/* Отступ сверху и снизу в 16 пикселей */
 }
 
 code {
-	font-family: 'Courier New', monospace;
-	font-size: 13px;
-	color: #212529;
-	font-weight: 700;
-}
-
-h3 {
-	margin: 18px 0;
-	font-size: 18px;
-	font-weight: 700;
+	font-family: 'Courier New', monospace;/* Шрифт моноширинного типа для кода */
+	font-size: 13px;/* Размер шрифта - 13 пикселей, что делает текст менее громоздким */
+	color: #212529;/* Цвет текста - тёмно-серый */
+	font-weight: 700;/* Жирный шрифт для выделения кода */
 }
 
 .projects-link {
@@ -222,32 +214,29 @@ h3 {
 }
 
 .footer {
-	margin: 32px 0 0;
-	padding: 24px 0;
-	text-align: center;
-	border-top: 1px solid #dee2e6;
+	margin: 32px 0 0;/* Отступ сверху в 32 пикселя, никаких отступов слева и справа, 0 отступ снизу */
+	padding: 24px 0;/* Внутренние отступы сверху и снизу по 24 пикселя, без отступов справа и слева */
+	text-align: center;/* Выравнивание текста по центру */
+	border-top: 1px solid #dee2e6;/* Верхняя граница футера толщиной 1 пиксель, серый цвет */
 }
 
 .footer-image {
-	height: 30px;
-	transition: transform 0.3s;
-}
-
-.footer-image:hover {
-	transform: scale(1.05);
+	height: 30px;/* Высота изображения установлена на 30 пикселей */
+	transition: transform 0.3s;/* Плавный переход для трансформации, который будет длиться 0.3 секунды */
 }
 
 .footer-info {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	display: flex;/* Устанавливает флекс-контейнер для возможности выравнивания элементов */
+	justify-content: space-between;/* Распределяет дочерние элементы по ширине и помещает их по краям контейнера */
+	align-items: center;/* Выравнивает дочерние элементы по центру по вертикали */
 }
 
 .footer-github {
-	color: #212529;
-	transition: color 0.3s;
+	color: #212529;/* Основной цвет текста ссылки - тёмно-серый */
+	transition: color 0.3s; /* Плавный переход цвета текста с продолжительностью 0.3 секунды */
+}
 }
 
 .footer-github:hover {
-	color: #0d6efd;
+	color: #0d6efd;/* Цвет текста ссылки меняется на синий при наведении мыши */
 }
