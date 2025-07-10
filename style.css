@@ -168,20 +168,20 @@ h2 {
 	margin-bottom: 20px;/* Отступ снизу в 20 пикселей, чтобы отделить заголовок от следующего элемента */
 }
 
-.Contact information-location {
+.Contacts-location {
 	margin-bottom: 20px;/* Отступ снизу в 20 пикселей для отделения блока контактной информации от следующего элемента */
 }
 
-.Contact information-item {
+.Contacts-item {
 	margin-bottom: 8px;/* Отступ снизу в 8 пикселей для каждого элемента контактной информации */
 }
 
-.Contact information-link {
+.Contacts-link {
 	color: #212529;/* Основной цвет текста ссылки */
 	transition: color 0.3s;/* Плавный переход цвета с продолжительностью 0.3 секунды при наведении */
 }
 
-.Contact information-link:hover {
+.Contacts-link:hover {
 	color: #0f6337;/* Цвет текста ссылки меняется при наведении мыши */
 }
 
