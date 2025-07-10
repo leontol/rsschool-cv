@@ -1,7 +1,9 @@
 # ***Anatol Leanovich***
 
 
-## Contacts
+## Contact information:
+* **Phone:** +375 (29) 399-24-03\
+* **Email:** leontol@mail.ru\
 * **Github**: leontol
 * **Discord**: leontol
 
@@ -11,7 +13,7 @@ I am 43 years old. I strive to constantly discover something new for myself. Cur
 
 * HTML
 * CSS
-* JS
+* JS (in progress)
 * Git
 * C++
 ## Code
@@ -24,6 +26,9 @@ a = Math.abs(Number(a));
 console.log(+c);
 
 ```
+## Education
+* Gomel Polytechnic College. Qualification: Electrician. Specialization: Power supply for industrial enterprises.
+* Gomel State Technical University named after P.O. Sukhoi. Qualification: Engineer-energetic. Specialization: Power supply of industrial enterprises.
 
 ## Experience
 *I have minimal practical experience in layout. I have no commercial experience.*

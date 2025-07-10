@@ -1,12 +1,124 @@
-<!-- Базовая структура HTML документа -->
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Заголовок страницы</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CV</title>
+    <link rel="stylesheet" type="text/css" href="style.css">    
 </head>
 <body>
-    <h1>Заголовок первого уровня</h1>
-    <p>Это параграф текста.</p>
+    <header class="header">
+	<div class="container">
+	<img class="header-avatar" src="img/my-photo.jpg" alt="my-photo">
+	<div class="header-info">
+	<h1 class="header-name">Leanovich Anatol</h1>
+    </div>
+        <nav class="navigation">
+            <ul class="navigation-list">
+                <li class="navigation-item">
+                    <a href="#Contacts" class="navigation-link"> Contacts</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="#About_me" class="navigation-link"> About me</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="#Skills" class="navigation-link"> Skills</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="#Code" class="navigation-link"> Code</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="#Education" class="navigation-link"> Education</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="#Experience" class="navigation-link"> Experience</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="#Languages" class="navigation-link"> Languages</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+	</header>
+        <main class="main">
+		<div class="container">
+			<section class="Contacts" id="Contacts">
+				<h2 class="Contacts-header"> Contacts</h2>
+				<ul class="Contacts-list">
+				<li class="Contacts-item">
+					<a href="tel:+375293992403" target="_blank" class="contacts-link">
+						<i class="icon-class"></i>&nbsp;+375&nbsp;(29)399&#8209;24&#8209;03</a>
+				</li>
+				<li class="Contacts-item">
+					<a href="mailto:leontol@mail.ru" target="_blank" class="Contacts-link"> leontol@mail.ru</a>
+				</li>
+				<li class="Contacts-item">
+					<a href="https://github.com/leontol" target="_blank" class="contacts-link"> GitHub</a>
+				</li>
+				<li class="Contacts-item">
+					<a href="https://discordapp.com/users/1042701171061694475/" target="_blank" class="Contacts-link"> Discord</a>
+				</li>
+				</ul>
+			</section>
+			<section class="About_me" id="About_me">
+				<h2 class="About_me-header"> About me</h2>
+				<p class="About_me-text">I am 43 years old. I strive to constantly discover something new for myself. 
+					Currently, I am actively working on Java Script, HTML and CSS, and I am also learning English at the same time. 
+					I constantly hone and improve my knowledge and skills in the field of development. 
+					In the future I see myself as a Frontend developer.</p>
+			</section>
+			<section class="Skills" id="Skills">
+				<h2 class="Skills-header"> Skills</h2>
+				<ul class="Skills-list">
+				<li class="Skills-item"> HTML</li>
+				<li class="Skills-item"> CSS</li>
+				<li class="Skills-item"> JS (in progress)</li>
+				<li class="Skills-item"> Git</li>
+				<li class="Skills-item"> C++</li>
+				</ul>
+			</section>
+			<section class="Code" id="Code">
+				<h2 class="Code-header"> Code</h2>
+				<pre class="Code-example"><code>
+let a = prompt();
+a = Math.abs(Number(a));
+
+    let c = a.toString().split('').reduce((s, m) => +s + +m, 0)
+console.log(+c);
+
+			</code></pre>
+			</section>
+			<section class="Education" id="Education">
+				<h2 class="Education-header"> Education</h2>
+				<ul class="Education-list">
+				<li class="Education-item"> Gomel Polytechnic College. Qualification: Electrician. Specialization: Power supply for industrial enterprises.</li>
+				<li class="Education-item"> Gomel State Technical University named after P.O. Sukhoi. Qualification: Engineer-energetic. Specialization: Power supply of industrial enterprises.</li>
+				</ul>
+			</section>
+			<section class="Experience" id="Experience">
+				<h2 class="Experience-header"> Experience</h2>
+				<p class="Experience-text">I have minimal practical experience in layout. I have no commercial experience.</p>
+			</section>
+			<section class="Languages" id="Languages">
+				<h2 class="Languages-header"> Languages</h2>
+				<ul class="Languages-list">
+				<li class="Languages-item"> Russian: Native</li>
+				<li class="Languages-item"> Belarusian: Native</li>
+				<li class="Languages-item"> English: beginner, in the process of learning</li>
+				</ul>
+			</section>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-info">
+				<p class="footer-date"> 2025 Leanovich Anatol</p>
+				<a href="https://github.com/leontol" target="_blank" class="footer-github"> GitHub</a>
+			</div>
+			<a href="https://rs.school/courses/javascript-ru" class="footer-link" target="_blank">
+			<img src="img/rs-school-logo.svg" alt="rs-school" class="footer-image">
+			</a>
+		</div>
+	</footer>
 </body>
 </html>
